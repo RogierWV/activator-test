@@ -1,0 +1,13 @@
+[package]
+name = "activator-test"
+version = "0.1.0"
+authors = ["Rogier Velting <rogiervelting@gmail.com>"]
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies.celix]
+git = "https://github.com/rogierwv/rust-celix.git"
+branch = "static"
+version = "0.3.1"
+default-features = false
